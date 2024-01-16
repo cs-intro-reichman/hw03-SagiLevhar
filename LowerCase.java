@@ -12,7 +12,7 @@ public class LowerCase {
     */
     public static String lowerCase(String s) {
         
-        String NewWord = "";
+        String NewWord = ""; // TODO: change to camelCase: newWord
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == ' '){
                 NewWord = NewWord + " ";

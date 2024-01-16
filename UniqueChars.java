@@ -10,6 +10,7 @@ public class UniqueChars {
      * except that all the duplicate characters are removed,
      * unless they are space characters.
      */
+    // TODO: you could solve it simpler using indexOf method as suggested.
     public static String uniqueChars(String s) {
         String NewWord = "";
         for (int i = 0; i < s.length(); i++) {
